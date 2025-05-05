@@ -1,6 +1,6 @@
-# dotfiles
+# Dotfiles
 
-Describing my experience with my [dotfiles](https://github.com/jari27/dotfiles).
+I have my [dotfiles](https://github.com/jari27/dotfiles) setup with a bare git repository inside my home directory (`~/.dotfiles/`), as described in [this blogpost](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles/).
 
 ### Adding Files: `git add --all` vs `git add`
 Since I usually run `gaa` to commit all files, I originally set up my `.gitignore` to automatically excluded everything and then added exceptions.
