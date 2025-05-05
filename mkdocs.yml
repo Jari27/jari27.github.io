@@ -9,7 +9,6 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.top
-    - navigation.footer
     - toc.integrate
   palette:
     # Palette toggle for light mode
@@ -25,9 +24,16 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   icon:
-    repo: fontawesome/brands/github
-
+    repo: fontawesome/brands/github # github icon
 extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jari-meevis/
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences  # nesting of blocks/admonitions/etc
+  - pymdownx.details      # collapsible admonitions
+  - pymdownx.highlight:   # code highlighting
+      use_pygments: true
+      # auto_title: true
+      line_spans: __span
